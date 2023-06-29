@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 100px;
+}
+
+.day {
+  background-color: lightblue;
+}
+
+.day.shift {
+  background-color: lightcoral;
+}
+
+.day.done {
+  background-color: lightgreen;
+}
